@@ -1,5 +1,5 @@
 body {
-    font-family: "Bodoni MT";
+    font-family: "Bodoni MT", "Courier New", monospace;
 }
 
 h1 {
@@ -8,8 +8,8 @@ h1 {
 
 ul.navigation {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #333;
 }
