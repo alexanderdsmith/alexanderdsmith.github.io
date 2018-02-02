@@ -1,3 +1,14 @@
+html {
+    background-color: #eeddff;
+}
+
+img.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
 body {
     font-family: "Bodoni MT", "Courier New", monospace;
 }
@@ -39,10 +50,6 @@ li.nav a:active {
     background-color: #111;
 }
 
-div.footer {
-    
-}
-
 body:after {
     content: "";
     display: block;
@@ -53,8 +60,16 @@ footer, body:after {
     height: 60px;
 }
 
-footer p {
-    text-align: center;
-    width: auto;
+footer div.smnav {
+    float: right;
+}
 
+footer div.smnav img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -60px;
+    padding: 5px 5px;
+    border-radius: 18px;
 }
