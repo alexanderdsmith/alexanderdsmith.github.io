@@ -1,477 +1,1863 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
   <head>
+    <title>alexanderdsmith.github.io</title>
+    <meta property="og:title" content="alexanderdsmith.github.io" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
 
-    <link rel="shortcut icon" href="img/favicon.ico">
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
 
-    <title>Alexander D. Smith</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
-
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/playground_assets/favicon.ico"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
 
-  <body id="page-top">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#research">Research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#entrepreneurship">Entrepreneurship</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#accomplishments">Accomplishments</a>
-          </li>
-        </ul>
+      <div class="home-container">
+        <div data-role="Header" class="home-navbar-container">
+          <div class="home-navbar">
+            <a href="#home" class="home-heading">
+              <span class="card-Heading">Alexander D. Smith</span>
+              <br />
+            </a>
+            <div class="home-links-container">
+              <a href="#education" class="home-link navbar-Link">Education</a>
+              <a href="#publications" class="home-link01 navbar-Link">
+                Research
+              </a>
+              <a href="#entrepreneurship" class="home-link02 navbar-Link">
+                Projects &amp; Entrepreneurship
+              </a>
+              <a href="#about" class="home-link03 navbar-Link">About</a>
+            </div>
+            <div data-type="BurgerMenu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                ></path>
+              </svg>
+            </div>
+            <div data-type="MobileMenu" class="home-mobile-menu">
+              <div class="home-container1">
+                <span class="card-Heading home-heading1">Logo</span>
+                <div data-type="CloseMobileMenu" class="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-links-container1">
+                <span class="home-link04 navbar-Link">About</span>
+                <span class="home-link05 navbar-Link">Experience</span>
+                <span class="home-link06 navbar-Link">Portofolio</span>
+                <span class="navbar-Link">Contact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator"></div>
+        <div class="home-section-separator1"></div>
+        <div id="home" class="home-container2">
+          <div class="home-hero">
+            <div class="home-hero-text-container">
+              <h1 class="home-heading2 section-Heading">Alexander D. Smith</h1>
+              <span class="home-text02">
+                <span class="section-Text">
+                  Medical Scholars Program MD-PhD Candidate
+                </span>
+                <br class="section-Text" />
+                <span class="section-Text">
+                  403 W. Green St. Urbana, IL 61801
+                </span>
+                <br class="section-Text" />
+                <span class="section-Text">almdphd@gmail.com</span>
+                <br />
+              </span>
+              <div class="home-cta-btn-container">
+                <a href="#publications" class="home-cta-btn anchor button">
+                  <span class="home-text09"></span>
+                  <span class="home-text10">
+                    <span>RESEARCH OUTPUT</span>
+                    <span></span>
+                  </span>
+                </a>
+                <a href="#about" class="home-cta-btn1 button anchor">
+                  ABOUT ME
+                </a>
+              </div>
+              <div class="home-social-links">
+                <a
+                  href="https://www.linkedin.com/in/alexander-d-smith/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link08"
+                >
+                  <svg viewBox="0 0 877.7142857142857 1024" class="home-icon04">
+                    <path
+                      d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/alexanderdsmith"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link09"
+                >
+                  <svg viewBox="0 0 877.7142857142857 1024" class="home-icon06">
+                    <path
+                      d="M438.857 73.143c242.286 0 438.857 196.571 438.857 438.857 0 193.714-125.714 358.286-300 416.571-22.286 4-30.286-9.714-30.286-21.143 0-14.286 0.571-61.714 0.571-120.571 0-41.143-13.714-67.429-29.714-81.143 97.714-10.857 200.571-48 200.571-216.571 0-48-17.143-86.857-45.143-117.714 4.571-11.429 19.429-56-4.571-116.571-36.571-11.429-120.571 45.143-120.571 45.143-34.857-9.714-72.571-14.857-109.714-14.857s-74.857 5.143-109.714 14.857c0 0-84-56.571-120.571-45.143-24 60.571-9.143 105.143-4.571 116.571-28 30.857-45.143 69.714-45.143 117.714 0 168 102.286 205.714 200 216.571-12.571 11.429-24 30.857-28 58.857-25.143 11.429-89.143 30.857-127.429-36.571-24-41.714-67.429-45.143-67.429-45.143-42.857-0.571-2.857 26.857-2.857 26.857 28.571 13.143 48.571 64 48.571 64 25.714 78.286 148 52 148 52 0 36.571 0.571 70.857 0.571 81.714 0 11.429-8 25.143-30.286 21.143-174.286-58.286-300-222.857-300-416.571 0-242.286 196.571-438.857 438.857-438.857zM166.286 703.429c1.143-2.286-0.571-5.143-4-6.857-3.429-1.143-6.286-0.571-7.429 1.143-1.143 2.286 0.571 5.143 4 6.857 2.857 1.714 6.286 1.143 7.429-1.143zM184 722.857c2.286-1.714 1.714-5.714-1.143-9.143-2.857-2.857-6.857-4-9.143-1.714-2.286 1.714-1.714 5.714 1.143 9.143 2.857 2.857 6.857 4 9.143 1.714zM201.143 748.571c2.857-2.286 2.857-6.857 0-10.857-2.286-4-6.857-5.714-9.714-3.429-2.857 1.714-2.857 6.286 0 10.286s7.429 5.714 9.714 4zM225.143 772.571c2.286-2.286 1.143-7.429-2.286-10.857-4-4-9.143-4.571-11.429-1.714-2.857 2.286-1.714 7.429 2.286 10.857 4 4 9.143 4.571 11.429 1.714zM257.714 786.857c1.143-3.429-2.286-7.429-7.429-9.143-4.571-1.143-9.714 0.571-10.857 4s2.286 7.429 7.429 8.571c4.571 1.714 9.714 0 10.857-3.429zM293.714 789.714c0-4-4.571-6.857-9.714-6.286-5.143 0-9.143 2.857-9.143 6.286 0 4 4 6.857 9.714 6.286 5.143 0 9.143-2.857 9.143-6.286zM326.857 784c-0.571-3.429-5.143-5.714-10.286-5.143-5.143 1.143-8.571 4.571-8 8.571 0.571 3.429 5.143 5.714 10.286 4.571s8.571-4.571 8-8z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://www.facebook.com/alexander.smith.391420/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link10"
+                >
+                  <svg viewBox="0 0 877.7142857142857 1024" class="home-icon08">
+                    <path
+                      d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://www.instagram.com/alkasmitzer/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link11"
+                >
+                  <svg viewBox="0 0 877.7142857142857 1024" class="home-icon10">
+                    <path
+                      d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <img
+              alt="image"
+              src="public/playground_assets/6917d85c-4bf1-41cc-b587-e8b10bc89b56_1_105_c-1500w.jpeg"
+              class="home-image"
+            />
+          </div>
+        </div>
+        <div id="education" class="home-features">
+          <div class="home-heading-container">
+            <h2 class="home-text15 section-Heading">Education</h2>
+            <span class="home-text16 section-Text">
+              <span>
+                I&apos;m an MD-PhD Candidate at the University of
+                Urbana-Champaign and Carle Illinois College of Medicine,
+                pursuing advancement of medical and surgical robotics.</span>
+            </span>
+          </div>
+          <div class="home-cards-container">
+            <div class="education-card-card">
+              <div class="education-card-image">
+                <img
+                  alt="image"
+                  src="public/playground_assets/qkoiy1u7_400x400-200h.jpeg"
+                  class="education-card-image1"
+                />
+              </div>
+              <h1 class="education-card-text card-Heading">
+                <span>University of Illinois at Urbana-Champaign</span>
+              </h1>
+              <div class="education-card-content-container">
+                <span class="education-card-text1 card-Text">
+                  <span>PhD - Computer Science</span>
+                </span>
+                <span class="education-card-text2 card-Text">
+                  <span>expected 2026</span>
+                </span>
+              </div>
+            </div>
+            <div class="education-card-card">
+              <div class="education-card-image">
+                <img
+                  alt="image"
+                  src="public/playground_assets/36598074_1697384710357466_5641258342920749056_n-200h.jpeg"
+                  class="education-card-image1"
+                />
+              </div>
+              <h1 class="education-card-text card-Heading">
+                <span>Carle Illinois College of Medicine</span>
+              </h1>
+              <div class="education-card-content-container">
+                <span class="education-card-text1 card-Text">
+                  <span>MD - Doctor of Medicine</span>
+                </span>
+                <span class="education-card-text2 card-Text">
+                  <span>expected 2028</span>
+                </span>
+              </div>
+            </div>
+            <div class="education-card-card">
+              <div class="education-card-image">
+                <img
+                  alt="image"
+                  src="public/playground_assets/jhm-web-200h.png"
+                  class="education-card-image1"
+                />
+              </div>
+              <h1 class="education-card-text card-Heading">
+                <span>Johns Hopkins University</span>
+              </h1>
+              <div class="education-card-content-container">
+                <span class="education-card-text1 card-Text">
+                  <span>Post-Baccalaureate</span>
+                </span>
+                <span class="education-card-text2 card-Text">
+                  <span>2020</span>
+                </span>
+              </div>
+            </div>
+            <div class="education-card-card">
+              <div class="education-card-image">
+                <img
+                  alt="image"
+                  src="public/playground_assets/slu_primary_noyear_rgb-200w.jpeg"
+                  class="education-card-image1"
+                />
+              </div>
+              <h1 class="education-card-text card-Heading">
+                <span>Saint Louis University</span>
+              </h1>
+              <div class="education-card-content-container">
+                <span class="education-card-text1 card-Text">
+                  <span>BS - Biomedical Engineering BS - Computer Science</span>
+                </span>
+                <span class="education-card-text2 card-Text">
+                  <span>2019</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="publications" class="home-about">
+          <div class="home-max-content-width-container">
+            <div class="home-heading-container1">
+              <h1 class="section-Heading home-text19">
+                <span>Research Positions</span>
+              </h1>
+            </div>
+            <div class="home-container3">
+              <div class="r-pos-card-container r-pos-card-root-class-name">
+                <div class="r-pos-card-container1">
+                  <div class="r-pos-card-container2">
+                    <div class="r-pos-card-container3">
+                      <img
+                        alt="image"
+                        src="public/playground_assets/50592865-200h.png"
+                        class="r-pos-card-image"
+                      />
+                      <div class="r-pos-card-container4">
+                        <h1 class="r-pos-card-text">
+                          <span>Graduate Research Assistant</span>
+                        </h1>
+                        <span class="r-pos-card-text1">
+                          <span>
+                            Intelligent Motion Laboratory, Champaign, IL
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="r-pos-card-text2 card-Text">
+                      <span>March 2021 - Present</span>
+                    </span>
+                  </div>
+                  <span class="r-pos-card-text3">
+                    <span>Advised by Prof. Kris Hauser, PhD</span>
+                  </span>
+                  <span class="card-Text">
+                    <span>
+                      Joined the Intelligent Motion Laboratory for the summer of
+                      2021 in a research rotation. Assisted a graduate student
+                      in the development and testing of a robotic auscultation
+                      system for a Tele-Robotic Intelligent Nursing Assistant
+                      (TRINA). Currently working on a novel robotic approach to
+                      automate fundoscopy.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="r-pos-card-container r-pos-card-root-class-name1">
+                <div class="r-pos-card-container1">
+                  <div class="r-pos-card-container2">
+                    <div class="r-pos-card-container3">
+                      <img
+                        alt="image"
+                        src="public/playground_assets/istar_logo-200h.jpg"
+                        class="r-pos-card-image"
+                      />
+                      <div class="r-pos-card-container4">
+                        <h1 class="r-pos-card-text">
+                          <span>Laboratory Technician</span>
+                        </h1>
+                        <span class="r-pos-card-text1">
+                          <span>
+                            Carnegie Center for Surgical Innovation, Baltimore,
+                            MD
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="r-pos-card-text2 card-Text">
+                      <span>June 2019 - June 2020</span>
+                    </span>
+                  </div>
+                  <span class="r-pos-card-text3">
+                    <span>Advised by Prof. Jeffrey Siewerdsen, PhD</span>
+                  </span>
+                  <span class="card-Text">
+                    <span>
+                      Worked as a biomedical engineer and robotics specialist in
+                      a year-long research role at Johns Hopkins Hospital. My
+                      research during this year was focused on assisting in the
+                      development of an automated robotic tool for acute
+                      emergency TBI survival, assisting in development of two
+                      courses (Surgery for Engineers and Radiology for
+                      Engineers), and assisting with research.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="r-pos-card-container r-pos-card-root-class-name2">
+                <div class="r-pos-card-container1">
+                  <div class="r-pos-card-container2">
+                    <div class="r-pos-card-container3">
+                      <img
+                        alt="image"
+                        src="public/playground_assets/abd4915d-3cbb-4104-861b-c0b1b7cb9785_1_105_c-200h.jpeg"
+                        class="r-pos-card-image"
+                      />
+                      <div class="r-pos-card-container4">
+                        <h1 class="r-pos-card-text">
+                          <span>Surgical Robotics Engineering Intern</span>
+                        </h1>
+                        <span class="r-pos-card-text1">
+                          <span>
+                            SLU Biomedical Engineering Laboratory, Saint Louis,
+                            MO
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="r-pos-card-text2 card-Text">
+                      <span>September 2015 - November 2020</span>
+                    </span>
+                  </div>
+                  <span class="r-pos-card-text3">
+                    <span>Advised by Prof. Andrew Hall, ScD</span>
+                  </span>
+                  <span class="card-Text">
+                    <span>
+                      Assisted in directing a group of undergraduate and
+                      graduate students. Implemented surgical robots that
+                      applied concepts in software engineering, mathematical
+                      model application, and electronics design to clinical
+                      settings. Successfully developed multiple automated and
+                      assistive surgical procedures utilizing applied CAD, Java,
+                      robotics safety protocol, industrial components, and
+                      general computing knowledge.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="r-pos-card-container r-pos-card-root-class-name3">
+                <div class="r-pos-card-container1">
+                  <div class="r-pos-card-container2">
+                    <div class="r-pos-card-container3">
+                      <img
+                        alt="image"
+                        src="public/playground_assets/ngvbecg4_400x400-200h.jpeg"
+                        class="r-pos-card-image"
+                      />
+                      <div class="r-pos-card-container4">
+                        <h1 class="r-pos-card-text">
+                          <span>Software Engineer</span>
+                        </h1>
+                        <span class="r-pos-card-text1">
+                          <span>
+                            SLU Department of Computer Science, Saint Louis, MO
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="r-pos-card-text2 card-Text">
+                      <span>June 2018 - November 2018</span>
+                    </span>
+                  </div>
+                  <span class="r-pos-card-text3">
+                    <span>
+                      Advised by Kevin Scannell, PhD and Christina Garcia, PhD
+                    </span>
+                  </span>
+                  <span class="card-Text">
+                    <span>
+                      Designed a full-stack application to host
+                      student-to-teacher interactions for a Spanish
+                      pronunciation techniques course. Server development
+                      consisted of JavaScript programming of all components of a
+                      MEAN Stack, design and implementation of the communication
+                      pathways for students and teachers,
+                      mathematics-programming skills with Fast Fourier Transform
+                      for spectrogram analysis, and comprehension of the
+                      pronunciation skills students would obtain to improve the
+                      general dynamic of the website.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="r-pos-card-container r-pos-card-root-class-name4">
+                <div class="r-pos-card-container1">
+                  <div class="r-pos-card-container2">
+                    <div class="r-pos-card-container3">
+                      <img
+                        alt="image"
+                        src="public/playground_assets/10563044_758722630857511_8746296686837036028_n-200h.jpeg"
+                        class="r-pos-card-image"
+                      />
+                      <div class="r-pos-card-container4">
+                        <h1 class="r-pos-card-text">
+                          <span>Education Improvement Intern</span>
+                        </h1>
+                        <span class="r-pos-card-text1">
+                          <span>SLU Department of Biology</span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="r-pos-card-text2 card-Text">
+                      <span>January 2017 - August 2018</span>
+                    </span>
+                  </div>
+                  <span class="r-pos-card-text3">
+                    <span>
+                      Advised by Elena Bray-Speth, PhD and David Letscher, PhD
+                    </span>
+                  </span>
+                  <span class="card-Text">
+                    <span>
+                      Utilized MEAN Stack and Daemon server website development
+                      alongside JavaScript, HTML, and CSS programming to link
+                      student education methods to machine learning algorithms.
+                      Project focus on enterprise website structure for
+                      professional design and commercialization of new education
+                      software for students studying introductory university
+                      biology. Critical leader in team motivation and agile
+                      prototyping of necessary application components and new
+                      features for this product.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-max-content-width-container1">
+            <div class="home-heading-container2">
+              <h1 class="section-Heading home-text21">
+                <span>Publications</span>
+              </h1>
+            </div>
+            <div class="home-container4">
+              <div class="pub-card-container pub-card-root-class-name">
+                <div class="pub-card-container1">
+                  <div class="pub-card-container2">
+                    <h1 class="pub-card-text card-Heading">
+                      <span>
+                        Automated Heart and Lung Auscultation in Robotic
+                        Physical Examinations
+                      </span>
+                    </h1>
+                    <span class="pub-card-text1 card-Text">
+                      <span>
+                        Yifan Zhu BE; Alexander D. Smith BS; Kris Hauser PhD
+                      </span>
+                    </span>
+                    <span class="pub-card-text2 card-Text">
+                      <span>IEEE Robotics and Automation Letters</span>
+                    </span>
+                    <div class="pub-card-container3">
+                      <span class="pub-card-text3 card-Text">
+                        <span>February 8, 2022</span>
+                      </span>
+                      <a
+                        href="https://doi.org/10.1109/LRA.2022.3149576"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="pub-card-link"
+                      >
+                        <span>https://doi.org/10.1109/LRA.2022.3149576</span>
+                      </a>
+                    </div>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/zhu1-3149576-small-200h.gif"
+                    class="pub-card-image"
+                  />
+                </div>
+              </div>
+              <div class="pub-card-container pub-card-root-class-name1">
+                <div class="pub-card-container1">
+                  <div class="pub-card-container2">
+                    <h1 class="pub-card-text card-Heading">
+                      <span>
+                        Robotic EVD Placement for Acute Neurosurgical Care in
+                        Low-Resource Settings: Feasibility Considerations and
+                        Prototype Design
+                      </span>
+                    </h1>
+                    <span class="pub-card-text1 card-Text">
+                      <span>
+                        Alexander D. Smith BS; Alexander J. Teague BS; Anant
+                        Naik BS; Mika Janbahan BS; Emily J Smith BS; David T
+                        Krist PhD; Sindhu Parupalli BS; Kevin Teal MD; Wael
+                        Hassaneen MD, PhD
+                      </span>
+                    </span>
+                    <span class="pub-card-text2 card-Text">
+                      <span>Journal of Neurosurgery Focus - Robotics</span>
+                    </span>
+                    <div class="pub-card-container3">
+                      <span class="pub-card-text3 card-Text">
+                        <span>January 1, 2022</span>
+                      </span>
+                      <a
+                        href="https://doi.org/10.3171/2021.10.FOCUS21544"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="pub-card-link"
+                      >
+                        <span>https://doi.org/10.3171/2021.10.FOCUS21544</span>
+                      </a>
+                    </div>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/2021.10.focus21544f1-200h.jpg"
+                    class="pub-card-image"
+                  />
+                </div>
+              </div>
+              <div class="pub-card-container pub-card-root-class-name2">
+                <div class="pub-card-container1">
+                  <div class="pub-card-container2">
+                    <h1 class="pub-card-text card-Heading">
+                      <span>
+                        Evaluating Robotic Pedicle Screw Placement Against
+                        Alternative Modalities: A Systematic Review and Network
+                        Meta-Analysis
+                      </span>
+                    </h1>
+                    <span class="pub-card-text1 card-Text">
+                      <span>
+                        Anant Naik BS; Alexander D. Smith BS; Annabelle Shaffer
+                        MS; David Krist PhD; Christina Monawad BS; Bailey
+                        MacInnis BS; Kevin Teal MD; Wael Hassaneen MD, PhD; Paul
+                        Arnold MD
+                      </span>
+                    </span>
+                    <span class="pub-card-text2 card-Text">
+                      <span>Journal of Neurosurgery Focus - Robotics</span>
+                    </span>
+                    <div class="pub-card-container3">
+                      <span class="pub-card-text3 card-Text">
+                        <span>January 1, 2022</span>
+                      </span>
+                      <a
+                        href="https://doi.org/10.3171/2021.10.FOCUS21509"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="pub-card-link"
+                      >
+                        <span>https://doi.org/10.3171/2021.10.FOCUS21509</span>
+                      </a>
+                    </div>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/2021.10.focus21509f4-200h.jpg"
+                    class="pub-card-image"
+                  />
+                </div>
+              </div>
+              <div class="pub-card-container pub-card-root-class-name3">
+                <div class="pub-card-container1">
+                  <div class="pub-card-container2">
+                    <h1 class="pub-card-text card-Heading">
+                      <span>
+                        Automated Polyaxial Screw Placement Using a
+                        Commercial-Robot-Based, Image-Guided Spine Surgery
+                        System
+                      </span>
+                    </h1>
+                    <span class="pub-card-text1 card-Text">
+                      <span>
+                        Alexander D. Smith BS; Jacob Chapin MS; Paul V. Birinyi
+                        MD; Prathamesh V. Bhagvath MS; Andrew F. Hall ScD
+                      </span>
+                    </span>
+                    <span class="pub-card-text2 card-Text">
+                      <span>
+                        IEEE Transactions on Medical Robotics and Bionics
+                      </span>
+                    </span>
+                    <div class="pub-card-container3">
+                      <span class="pub-card-text3 card-Text">
+                        <span>November 11, 2020</span>
+                      </span>
+                      <a
+                        href="https://doi.org/10.1109/TMRB.2020.3037339"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="pub-card-link"
+                      >
+                        <span>https://doi.org/10.1109/TMRB.2020.3037339</span>
+                      </a>
+                    </div>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/hall8-3037339-small-200h.gif"
+                    class="pub-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-max-content-width-container2">
+            <div class="home-heading-container3">
+              <h1 class="section-Heading home-text23">Presentations</h1>
+            </div>
+            <div class="home-cards-container1">
+              <div class="pres-card-card pres-card-root-class-name">
+                <h1 class="pres-card-text">
+                  <span>
+                    Development of an Inexpensive Spine Surgery Assistance
+                    System for Low-Resource Settings
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Smith, A. Shaffer, A. Naik, W. Hassaneen, P. Arnold
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>September 9, 2022</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>Illinois State Neurosurgical Society</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Urbana, IL</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name1">
+                <h1 class="pres-card-text">
+                  <span>
+                    Intraoperative prophylaxis for surgical site infections in
+                    pediatric spinal surgery: a systematic review and network
+                    meta-analysis
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Shaffer, A. Naik, B. MacInnis, M. Chen, A. Smith, W.
+                      Hassaneen, P. Arnold
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>September 9, 2022</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>Illinois State Neurosurgical Society</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Urbana, IL</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name2">
+                <h1 class="pres-card-text">
+                  <span>
+                    Spine Surgery Assistance Robot for Low-Resource Settings: A
+                    Proof of Concept
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Poster Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Smith, A. Naik, A. Shaffer, W. Hassaneen, P. Arnold
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>August 12, 2022</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>Midwest Healthcare Management Conference</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Urbana, IL</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name3">
+                <h1 class="pres-card-text">
+                  <span>
+                    Passive Robotic Navigation for External Ventricular Drain
+                    Placement in Low-Resource Settings
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Poster Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Teague, A. Smith, A. Naik, M. Janbahan, E. Smith, D.
+                      Krist, S. Parupalli, K. Teal, P. Arnold, W. Mostafa
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>August 12, 2022</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>Midwest Healthcare Management Conference</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Urbana, IL</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name4">
+                <h1 class="pres-card-text">
+                  <span>
+                    Clinical, Entrepreneurial, and Scientific Approaches to
+                    Medical Innovation
+                  </span>
+                </h1>
+                <span class="pres-card-text1"><span>Seminar</span></span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2"><span>A. Smith</span></span>
+                  <span class="pres-card-text3">
+                    <span>July 22, 2022</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>RISE Seminars</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Urbana, IL</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name5">
+                <h1 class="pres-card-text">
+                  <span>
+                    Quantifying the Need for Global Neurosurgical Intervention –
+                    And a Robotic Approach to Increase Access to Treatment
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Smith, A. Teague, A. Naik, W. Hassaneen, P. Arnold
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>July 10, 2022</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>National MD-PhD Student Annual Conference</span>
+                  </span>
+                  <span class="pres-card-text5">
+                    <span>Copper Mountain, CO</span>
+                  </span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name6">
+                <h1 class="pres-card-text">
+                  <span>
+                    Assessing Needs for Acute Neurosurgical Care in Low-Resource
+                    Settings
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Smith, A. Teague, A. Naik, E. Smith, M. Janbahan, D.
+                      Krist, K. Teal, P. Arnold, W. Hassaneen
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>April 29, 2022</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>
+                      American Association of Neurological Surgeons Annual
+                      Meeting
+                    </span>
+                  </span>
+                  <span class="pres-card-text5">
+                    <span>Philadelphia, PA</span>
+                  </span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name7">
+                <h1 class="pres-card-text">
+                  <span>
+                    The State of Machine Learning in Outcomes Prediction of
+                    Transsphenoidal Surgery: A Systematic Review
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Poster Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      D. Yang, A. Smith, E. Smith, M. Janbahan, A. Naik, C.
+                      Thompson, W. Hassaneen
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>April 29, 2022</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>
+                      American Association of Neurological Surgeons Annual
+                      Meeting
+                    </span>
+                  </span>
+                  <span class="pres-card-text5">
+                    <span>Philadelphia, PA</span>
+                  </span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name8">
+                <h1 class="pres-card-text">
+                  <span>
+                    Robotic EVD Placement for Acute Neurosurgical Care in
+                    Low-Resource Settings
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>
+                    Oral Presentation, Best in Innovation and Industry
+                  </span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Smith, A. Teague, A. Naik, M. Janbahan, E. Smith, D.
+                      Krist, S. Parupalli, K. Teal, W. Hassaneen
+                    </span>
+                  </span>
+                  <span class="pres-card-text3"><span>April 2022</span></span>
+                  <span class="pres-card-text4">
+                    <span>
+                      Annual Health Innovation Research Day at University of
+                      Illinois
+                    </span>
+                  </span>
+                  <span class="pres-card-text5">
+                    <span>Champaign, IL</span>
+                  </span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name9">
+                <h1 class="pres-card-text">
+                  <span>
+                    The State of Machine Learning in Outcomes Prediction of
+                    Transsphenoidal Surgery: A Systematic Review
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Poster Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      D. Yang, A. Smith, E. Smith, M. Janbahan, A. Naik, C.
+                      Thompson, W. Hassaneen
+                    </span>
+                  </span>
+                  <span class="pres-card-text3"><span>April 2022</span></span>
+                  <span class="pres-card-text4">
+                    <span>
+                      Annual Health Innovation Research Day at University of
+                      Illinois
+                    </span>
+                  </span>
+                  <span class="pres-card-text5">
+                    <span>Champaign, IL</span>
+                  </span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name10">
+                <h1 class="pres-card-text">
+                  <span>
+                    The Role of the Medical Student on the Spine Surgery Team
+                  </span>
+                </h1>
+                <span class="pres-card-text1"><span>Seminar</span></span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>A. Smith, K. Teal</span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>November 12, 2021</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>Carle Foundation Annual Spine Summit</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Urbana, IL</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name11">
+                <h1 class="pres-card-text">
+                  <span>
+                    Evaluating Robotic Pedicle Screw Placement Against
+                    Alternative Modalities: A Systematic Review and Network
+                    Meta-Analysis
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Poster Presentation, Best Poster Award</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Naik, A. Smith, A. Shaffer, D. Krist, C. Monawad, B.
+                      MacInnis, K. Teal, W. Hassaneen, P. Arnold
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>November 12, 2021</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>
+                      Global Neurosurgery Lyceum Series: Global Neurosurgical
+                      Update & Educational Summit
+                    </span>
+                  </span>
+                  <span class="pres-card-text5"><span>Virtual</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name12">
+                <h1 class="pres-card-text">
+                  <span>
+                    Cost-Effective Neurosurgical Navigation and CSF Evacuation
+                    for Global TBI
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2"><span>A. Smith</span></span>
+                  <span class="pres-card-text3">
+                    <span>October 18, 2021</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>
+                      Congress of Neurological Surgeons Annual Meeting
+                    </span>
+                  </span>
+                  <span class="pres-card-text5"><span>Austin, TX</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name14">
+                <h1 class="pres-card-text">
+                  <span>
+                    Evaluating Strategies to Manage High-Grade Gliomas and
+                    Metastases in the Brain
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation, Best Research Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      D. Krist, E. Smith, A. Naik, M. Janbahan, A. Smith, M.
+                      Zientek, S. Stanic, W. Hassaneen
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>July 30, 2021</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>Discovery Learning Talks</span>
+                  </span>
+                  <span class="pres-card-text5">
+                    <span>Champaign, IL</span>
+                  </span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name15">
+                <h1 class="pres-card-text">
+                  <span>
+                    Informative Path Planning for Automatic Robotic Auscultation
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Poster Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>Y. Zhu, A. Smith, K. Hauser</span>
+                  </span>
+                  <span class="pres-card-text3"><span>June 4, 2021</span></span>
+                  <span class="pres-card-text4">
+                    <span>
+                      International Conference on Robotics and Automation
+                    </span>
+                  </span>
+                  <span class="pres-card-text5"><span>Virtual</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name17">
+                <h1 class="pres-card-text">
+                  <span>Innovation from the Medical Student Perspective</span>
+                </h1>
+                <span class="pres-card-text1"><span>Seminar</span></span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>A. Smith, K. Teal, W. Hassaneen, B. Rowitz</span>
+                  </span>
+                  <span class="pres-card-text3"><span>May 7, 2021</span></span>
+                  <span class="pres-card-text4">
+                    <span>Carle Foundation Day</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Urbana, IL</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name13">
+                <h1 class="pres-card-text">
+                  <span>
+                    Automated Polyaxial Screw Placement Using a
+                    Commercial-Robot-Based, Image-Guided Spine Surgery System
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Smith, J. Chapin, P. Birinyi, P. Bhagvath, A. Hall
+                    </span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>April 16, 2021</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>
+                      19th Annual Health Innovation Research Day at University
+                      of Illinois
+                    </span>
+                  </span>
+                  <span class="pres-card-text5">
+                    <span>Champaign, IL</span>
+                  </span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name16">
+                <h1 class="pres-card-text">
+                  <span>
+                    Neurosurgical Navigation for Low-Resource Communities with a
+                    Passive Bone-Mounted Navigation System
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>
+                    Oral Presentation, Best in Bioimaging and Bioinformatics
+                  </span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>A. Smith, A. Teague, S. Parupalli</span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>April 9, 2021</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>
+                      16th Coordinated Sciences Laboratory Student Conference
+                    </span>
+                  </span>
+                  <span class="pres-card-text5">
+                    <span>Champaign, IL</span>
+                  </span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name18">
+                <h1 class="pres-card-text">
+                  <span>
+                    Slide Tracking Interface, Visualization, and Analysis for
+                    Digital Histopathology
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>
+                      A. Smith, L. Huang, T. Wang, A. Baras, M. Zarella, and J.
+                      Siewerdsen
+                    </span>
+                  </span>
+                  <span class="pres-card-text3"><span>July 1, 2020</span></span>
+                  <span class="pres-card-text4">
+                    <span>Biomedical Engineering Society Meeting</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Virtual</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name19">
+                <h1 class="pres-card-text">
+                  <span>
+                    Automated Image-Guided Pedicle Screw Placement Using a
+                    Commercial Robot
+                  </span>
+                </h1>
+                <span class="pres-card-text1"><span>Poster</span></span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>A. Smith, A. Hall.</span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>October 7, 2018</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>National Image-Guided Therapy Conference</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Boston, MA</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name20">
+                <h1 class="pres-card-text">
+                  <span>
+                    Automated Image-Guided Pedicle Screw Placement Using a
+                    Commercial Robot
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>A. Smith, J. Chapin, J. Lopez, A. Hall</span>
+                  </span>
+                  <span class="pres-card-text3">
+                    <span>July 30, 2018</span>
+                  </span>
+                  <span class="pres-card-text4">
+                    <span>Biomedical Engineering Society Meeting</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Atlanta, GA</span></span>
+                </div>
+              </div>
+              <div class="pres-card-card pres-card-root-class-name21">
+                <h1 class="pres-card-text">
+                  <span>
+                    Commercial Robot Based Retractor for Spine Surgery
+                  </span>
+                </h1>
+                <span class="pres-card-text1">
+                  <span>Oral Presentation</span>
+                </span>
+                <div class="pres-card-content-container">
+                  <span class="pres-card-text2">
+                    <span>A. Smith, R. Neuville, A. Hall</span>
+                  </span>
+                  <span class="pres-card-text3"><span>July 1, 2017</span></span>
+                  <span class="pres-card-text4">
+                    <span>Biomedical Engineering Society Meeting</span>
+                  </span>
+                  <span class="pres-card-text5"><span>Phoenix, AZ</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="publications" class="home-about1">
+          <div class="home-max-content-width-container3">
+            <div class="home-heading-container4">
+              <h1 id="entrepreneurship" class="home-text24 section-Heading">
+                Projects, Entrepreneurship, and Leadership
+              </h1>
+            </div>
+            <div class="home-container5">
+              <div class="project-card-container project-card-root-class-name2">
+                <div class="project-card-container1">
+                  <div class="project-card-container2">
+                    <div class="project-card-container3">
+                      <div class="project-card-container4">
+                        <h1 class="project-card-text card-Heading">
+                          <span>Carle Illinois Research Chair</span>
+                        </h1>
+                        <span class="project-card-text1 card-Text">
+                          <span>Inaugural Research Chair</span>
+                        </span>
+                      </div>
+                      <div class="project-card-container5">
+                        <span class="project-card-text2 card-Text">
+                          <span>February 2022 - Present</span>
+                        </span>
+                        <a
+                          href="https://medicine.illinois.edu/research"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="project-card-link"
+                        >
+                          <span>Carle Illinois Research Website</span>
+                        </a>
+                      </div>
+                    </div>
+                    <span class="project-card-text3 card-Text">
+                      <span>
+                        I was elected as the first Research Chair in the Carle
+                        Illinois Student Government. My role has been largely to
+                        expand access to research opportunities, collaborate on
+                        changes in policies surrounding research and innovation
+                        at Carle Illinois, and to provide support for students
+                        seeking research opportunities.
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/sga_logo-transparent-200w.jpg"
+                    class="project-card-image"
+                  />
+                </div>
+              </div>
+              <div class="project-card-container project-card-root-class-name3">
+                <div class="project-card-container1">
+                  <div class="project-card-container2">
+                    <div class="project-card-container3">
+                      <div class="project-card-container4">
+                        <h1 class="project-card-text card-Heading">
+                          <span>
+                            Wael Mostafa's Neurosurgery Research Group
+                          </span>
+                        </h1>
+                        <span class="project-card-text1 card-Text">
+                          <span>Co-Founder</span>
+                        </span>
+                      </div>
+                      <div class="project-card-container5">
+                        <span class="project-card-text2 card-Text">
+                          <span>January 2021 - Present</span>
+                        </span>
+                        <a
+                          href="https://sites.google.com/illinois.edu/mostafalab/home?authuser=2"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="project-card-link"
+                        >
+                          <span>Mostafa Neurosurgery Lab Website</span>
+                        </a>
+                      </div>
+                    </div>
+                    <span class="project-card-text3 card-Text">
+                      <span>
+                        Anant Naik and I worked together to start a neurosurgery
+                        research group at Carle Neuroscience Institute, together
+                        with Dr. Wael Mostafa, MD, PhD. Our research group has
+                        been exceptionally productive, submitting over 90% of
+                        all research published at our medical school.
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/14_12-science-facts-2-dti-sagittal-fibers-272x300-200w.jpeg"
+                    class="project-card-image"
+                  />
+                </div>
+              </div>
+              <div class="project-card-container project-card-root-class-name4">
+                <div class="project-card-container1">
+                  <div class="project-card-container2">
+                    <div class="project-card-container3">
+                      <div class="project-card-container4">
+                        <h1 class="project-card-text card-Heading">
+                          <span>AANS Student Chapter</span>
+                        </h1>
+                        <span class="project-card-text1 card-Text">
+                          <span>Founder</span>
+                        </span>
+                      </div>
+                      <div class="project-card-container5">
+                        <span class="project-card-text2 card-Text">
+                          <span>January 2021 - Present</span>
+                        </span>
+                        <a
+                          href="https://www.aans.org/Trainees/Medical-Students/Chapter-Directory"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="project-card-link"
+                        >
+                          <span>AANS Student Chapters</span>
+                        </a>
+                      </div>
+                    </div>
+                    <span class="project-card-text3 card-Text">
+                      <span>
+                        I founded our student interest group for the American
+                        Association of Neurological Surgeons at Carle Illinois
+                        with the assistance of my initial founding team of other
+                        students interested in a career in neurosurgery. Our
+                        group is still active, hosts journal clubs, and
+                        maintains a strong relationship with the American
+                        neurosurgical community.
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/american_association_of_neurological_surgeons_aans_1547200749-200h.jpeg"
+                    class="project-card-image"
+                  />
+                </div>
+              </div>
+              <div class="project-card-container project-card-root-class-name6">
+                <div class="project-card-container1">
+                  <div class="project-card-container2">
+                    <div class="project-card-container3">
+                      <div class="project-card-container4">
+                        <h1 class="project-card-text card-Heading">
+                          <span>Nephra</span>
+                        </h1>
+                        <span class="project-card-text1 card-Text">
+                          <span>Startup Advisor</span>
+                        </span>
+                      </div>
+                      <div class="project-card-container5">
+                        <span class="project-card-text2 card-Text">
+                          <span>December 2020 - Present</span>
+                        </span>
+                        <a
+                          href="https://nephra.ai/about/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="project-card-link"
+                        >
+                          <span>Nephra Website</span>
+                        </a>
+                      </div>
+                    </div>
+                    <span class="project-card-text3 card-Text">
+                      <span>
+                        Nephra is a student-led startup, and the first team
+                        incubated through the AxisMED program. Their team has
+                        since gone on to win multiple pitch competitions and
+                        raise over $50,000 in non-dilutive funding. I've given
+                        medical counsel and advice to help advance this team's
+                        work to succeed in the current entrepreneurial
+                        ecocystem.
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/1649299394205-200h.jpeg"
+                    class="project-card-image"
+                  />
+                </div>
+              </div>
+              <div class="project-card-container project-card-root-class-name">
+                <div class="project-card-container1">
+                  <div class="project-card-container2">
+                    <div class="project-card-container3">
+                      <div class="project-card-container4">
+                        <h1 class="project-card-text card-Heading">
+                          <span>AxisMED</span>
+                        </h1>
+                        <span class="project-card-text1 card-Text">
+                          <span>Founder</span>
+                        </span>
+                      </div>
+                      <div class="project-card-container5">
+                        <span class="project-card-text2 card-Text">
+                          <span>March 2020 - Present</span>
+                        </span>
+                        <a
+                          href="https://www.axismed.org"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="project-card-link"
+                        >
+                          <span>AxisMED Homepage</span>
+                        </a>
+                      </div>
+                    </div>
+                    <span class="project-card-text3 card-Text">
+                      <span>
+                        I was the founder of a biomedical incubation program,
+                        made by students for students in the Champaign-Urbana
+                        region. This program has helped launch several
+                        successful start-up teams and recruits medical students
+                        and students in other disciplines including business,
+                        law, and engineering to learn how to create their own
+                        med-tech enterprise. Currently serving as Treasurer.
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/axismed_header-200h.png"
+                    class="project-card-image"
+                  />
+                </div>
+              </div>
+              <div class="project-card-container project-card-root-class-name1">
+                <div class="project-card-container1">
+                  <div class="project-card-container2">
+                    <div class="project-card-container3">
+                      <div class="project-card-container4">
+                        <h1 class="project-card-text card-Heading">
+                          <span>Digital Histopathology Interface</span>
+                        </h1>
+                        <span class="project-card-text1 card-Text">
+                          <span>Founder</span>
+                        </span>
+                      </div>
+                      <div class="project-card-container5">
+                        <span class="project-card-text2 card-Text">
+                          <span>January 2020 - Present</span>
+                        </span>
+                        <a
+                          href="https://example.com"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="project-card-link"
+                        >
+                          <span>Demo site coming soon...</span>
+                        </a>
+                      </div>
+                    </div>
+                    <span class="project-card-text3 card-Text">
+                      <span>
+                        I started research on digital histopathology diagnosis
+                        and usage while at Johns Hopkins University, during the
+                        Surgineering course that took place at the start of the
+                        COVID-19 pandemic. This project is focused on the
+                        concept of improving the diagnostics process for
+                        surgical pathologists, moving the interface from analog
+                        microscopes to a digital environment with excellent
+                        access to data.
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/digital-pathology-puzzle-2-200h.jpeg"
+                    class="project-card-image"
+                  />
+                </div>
+              </div>
+              <div class="project-card-container project-card-root-class-name7">
+                <div class="project-card-container1">
+                  <div class="project-card-container2">
+                    <div class="project-card-container3">
+                      <div class="project-card-container4">
+                        <h1 class="project-card-text card-Heading">
+                          <span>Viviapath Storybooks Foundation</span>
+                        </h1>
+                        <span class="project-card-text1 card-Text">
+                          <span>Co-Founder</span>
+                        </span>
+                      </div>
+                      <div class="project-card-container5">
+                        <span class="project-card-text2 card-Text">
+                          <span>May 2017 - Present</span>
+                        </span>
+                        <a
+                          href="https://patents.google.com/patent/US6416480B1/en"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="project-card-link"
+                        >
+                          <span>Website coming soon...</span>
+                        </a>
+                      </div>
+                    </div>
+                    <span class="project-card-text3 card-Text">
+                      <span>
+                        As a hobby, I started working with a few of my friends
+                        to develop a series of children’s storybooks to educate
+                        about and advocate for awareness, understanding,
+                        acceptance, and social and environmental inclusion of
+                        people with disabilities.
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/untitled-200h.jpg"
+                    class="project-card-image"
+                  />
+                </div>
+              </div>
+              <div class="project-card-container project-card-root-class-name5">
+                <div class="project-card-container1">
+                  <div class="project-card-container2">
+                    <div class="project-card-container3">
+                      <div class="project-card-container4">
+                        <h1 class="project-card-text card-Heading">
+                          <span>MEDLaunch Saint Louis</span>
+                        </h1>
+                        <span class="project-card-text1 card-Text">
+                          <span>President Emeritus</span>
+                        </span>
+                      </div>
+                      <div class="project-card-container5">
+                        <span class="project-card-text2 card-Text">
+                          <span>March 2017 - May 2019</span>
+                        </span>
+                        <a
+                          href="https://www.medlaunchstl.com/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="project-card-link"
+                        >
+                          <span>MEDLaunch Homepage</span>
+                        </a>
+                      </div>
+                    </div>
+                    <span class="project-card-text3 card-Text">
+                      <span>
+                        I was the Chief of Marketing and elected President of
+                        MEDLaunch, a biomedical incubator in Saint Louis and
+                        associated with Saint Louis University. My role was
+                        critical to the sustainability of this program, as I
+                        took leadership after the Founding team of medical
+                        students graduated from Saint Louis University Medical
+                        School, making this effort pivotal in shaping the future
+                        of the program.
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/medlaunch%2Blog-200h.png"
+                    class="project-card-image"
+                  />
+                </div>
+              </div>
+              <div class="project-card-container project-card-root-class-name8">
+                <div class="project-card-container1">
+                  <div class="project-card-container2">
+                    <div class="project-card-container3">
+                      <div class="project-card-container4">
+                        <h1 class="project-card-text card-Heading">
+                          <span>NeuroSynaptic Medical</span>
+                        </h1>
+                        <span class="project-card-text1 card-Text">
+                          <span>Co-Founder</span>
+                        </span>
+                      </div>
+                      <div class="project-card-container5">
+                        <span class="project-card-text2 card-Text">
+                          <span>August 2016 - April 2017</span>
+                        </span>
+                        <a
+                          href="https://patents.google.com/patent/US6416480B1/en"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="project-card-link"
+                        >
+                          <span>Automated GCS Patent</span>
+                        </a>
+                      </div>
+                    </div>
+                    <span class="project-card-text3 card-Text">
+                      <span>
+                        MEDLaunch recruited my labmate to participate in their
+                        cohort in Fall of 2016, and I was invited to join her
+                        team. Together, we worked on a project focused on
+                        automating the acquisition of the Glasgow Coma Score.
+                        This project aimed to reduce patient morbidity and
+                        mortality rates in neurological ICUs. The project ended
+                        when we found that the concept was previously patented.
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/19fa1f6bd30ad07778331d46574d4548%402x-200h.jpeg"
+                    class="project-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="about" class="home-faqs">
+          <h2 class="home-text25 section-Heading">Biography</h2>
+          <div class="home-content-container">
+            <span class="home-text26">
+              <span>
+                I am Al Smith, an ambitious medical student studying the
+                intersection of medicine and engineering. My interests are in
+                theoretical computational sciences and surgery, with focus on
+                the applications of robots to neurosurgical emergency procedures
+                in low-resource settings. I am in the process of obtaining an MD
+                and a PhD with a medical robotics focus while attending the
+                University of Illinois at Urbana-Champaign and Carle Illinois
+                College of Medicine.
+              </span>
+              <br />
+              <br />
+              <span>
+                I was born to Tim and Cindy Smith in West Linn, Oregon on July
+                21, 1997 and was baptized into the Catholic Church. As a child,
+                I found great fascination in mathematics, science, and music,
+                pursuing piano lessons, science fairs and other activities
+                promoting scientific and creative learning. At the age of 10,
+                our family moved to Naperville, Illinois. I found interest in
+                twisty puzzles through the Rubik&apos;s Cube, which I learned to
+                solve during the winter of 2007. I participated in several
+                puzzle-solving competitions around this time, and used
+                inspiration from this hobby to create my first statistics
+                project: &quot;Lube Cubed - How Lubricants Affect the Solve Time
+                of a Rubik&apos;s Cube&quot;. This project went on to place in
+                the Illinois Junior Academy of Science Annual State Exposition,
+                greatly expanding my interest in pursuing the sciences
+                long-term.
+              </span>
+              <br />
+              <br />
+              <span>
+                I attended high school at Benet Academy from 2011-2015. I
+                explored several avenues, finding strong interest in engineering
+                and computer science topics during my education. I also
+                participated in several music organizations, including my high
+                school Wind Ensemble, Jazz Combo and Ensemble, Pit Orchestra for
+                our musical production, and a few small band groups with friends
+                playing brass instruments, particularly trumpet and French horn.
+                I additionally participated in the varsity boys swim team with
+                strengths in long-distance, butterfly, and individual medley
+                races. Outside of school, I often focused on health through
+                weight lifting and dieting and found fascination in cars,
+                learning to do all maintenance and upgrading on my first car, a
+                2006 Scion tC.
+              </span>
+              <br />
+            </span>
+          </div>
+        </div>
+        <div id="about" class="home-faqs1">
+          <div class="home-content-container1">
+            <span class="home-text35">
+              <span>
+                In 2015, I began college at Saint Louis University (SLU),
+                starting undecided in engineering. I was quickly introduced to
+                research after a lecture by Dr. Andy Hall in which he described
+                medical devices and surgical robotics. I approached him and he
+                invited me to join his lab. Shortly after joining this lab, I
+                decided to add a second major in computer science to bolster my
+                focus in robotics programming. I used this dual major to decide
+                that I wanted to work on surgical robotics for my career.
+              </span>
+              <br />
+              <br />
+              <span>
+                I joined MEDLaunch in 2016 as a team member and worked on my
+                first entrepreneurial venture, Neurosynaptic Medical, in which
+                our team attempted to develop an automated approach to assess a
+                patient&apos;s Glasgow Coma Score in the neurological intensive
+                care unit. This experience greatly opened my network, giving me
+                connections to the neurosurgeons at SLU Hospital and other
+                healthcare workers. I joined the MEDLaunch Leadership team in
+                2017, and in 2018, I was elected president of the organization.
+                I advanced my understanding of entrepreneurship through
+                trial-and-error, attempting three different startup companies in
+                my senior years at SLU: an electronic medical record company
+                called Lifaxis, a children&apos;s storybook nonprofit called
+                Viviapath, and continuing work on Neurosynaptic.
+              </span>
+              <br />
+              <br />
+              <span>
+                I founded the SLU Cycling Team with Alec Albright in 2016,
+                participated in several Cat5 and Cat4 bike races, and became
+                interested in IRONMAN triathlons as well. I since participated
+                in 4 IRONMAN triathlons around the country, including Steelhead
+                70.3, Muncie 70.3, Louisville 140.6, and Coeur d&apos;Alene
+                70.3. I also participated in St. Francis Xavier College
+                Church&apos;s choir orchestra, playing French horn for Sunday
+                Mass.
+              </span>
+              <br />
+              <br />
+              <span>
+                In 2018, I found my calling as an MD/PhD physician and completed
+                premedical coursework in my senior year at SLU. I took a
+                gap-year at Johns Hopkins University to apply for medical school
+                and obtain a rich research experience in the Carnegie Center for
+                Surgical Innovation. In January 2020, I was accepted to Carle
+                Illinois, my top choice program. I became the first MD/PhD
+                candidate in the Medical Scholars Program, and decided to pursue
+                my PhD in computer science to advance my capability to impact
+                the field of surgical robotics.
+              </span>
+              <br />
+              <br />
+              <span>
+                I plan to pursue a residency in neurosurgery after medical
+                school, with the hopes of applying my medical knowledge,
+                scientific capabilities, and entrepreneurial spirit to global
+                challenges in access to medical care, particularly in emergency
+                situations without existing access to life-saving treatments. I
+                feel incredibly blessed to have the ability to serve this
+                mission. I am extremely motivated to use these skills I have
+                obtained to continue to challenge the unknown and inspire others
+                to do the same.
+              </span>
+              <br />
+            </span>
+          </div>
+        </div>
+        <div class="home-subscribe">
+          <img
+            alt="image"
+            src="public/playground_assets/6f329478-37f1-48b5-b27e-91ebf93869f3_1_105_c-1500w.jpeg"
+            class="home-image1"
+          />
+          <div class="home-container6">
+            <div class="home-heading-container5">
+              <h1 class="home-text50 section-Heading">Contact Me</h1>
+              <span class="home-text51 section-Text">
+                Project discussions, collaboration requests, or any other
+                contacts are welcome. Please reach out to me at
+                almdphd@gmail.com. Thanks!
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="home-footer-container">
+          <div class="home-footer">
+            <div class="home-social-links1">
+              <a
+                href="https://www.linkedin.com/in/alexander-d-smith/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link12"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon12">
+                  <path
+                    d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://github.com/alexanderdsmith"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link13"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon14">
+                  <path
+                    d="M438.857 73.143c242.286 0 438.857 196.571 438.857 438.857 0 193.714-125.714 358.286-300 416.571-22.286 4-30.286-9.714-30.286-21.143 0-14.286 0.571-61.714 0.571-120.571 0-41.143-13.714-67.429-29.714-81.143 97.714-10.857 200.571-48 200.571-216.571 0-48-17.143-86.857-45.143-117.714 4.571-11.429 19.429-56-4.571-116.571-36.571-11.429-120.571 45.143-120.571 45.143-34.857-9.714-72.571-14.857-109.714-14.857s-74.857 5.143-109.714 14.857c0 0-84-56.571-120.571-45.143-24 60.571-9.143 105.143-4.571 116.571-28 30.857-45.143 69.714-45.143 117.714 0 168 102.286 205.714 200 216.571-12.571 11.429-24 30.857-28 58.857-25.143 11.429-89.143 30.857-127.429-36.571-24-41.714-67.429-45.143-67.429-45.143-42.857-0.571-2.857 26.857-2.857 26.857 28.571 13.143 48.571 64 48.571 64 25.714 78.286 148 52 148 52 0 36.571 0.571 70.857 0.571 81.714 0 11.429-8 25.143-30.286 21.143-174.286-58.286-300-222.857-300-416.571 0-242.286 196.571-438.857 438.857-438.857zM166.286 703.429c1.143-2.286-0.571-5.143-4-6.857-3.429-1.143-6.286-0.571-7.429 1.143-1.143 2.286 0.571 5.143 4 6.857 2.857 1.714 6.286 1.143 7.429-1.143zM184 722.857c2.286-1.714 1.714-5.714-1.143-9.143-2.857-2.857-6.857-4-9.143-1.714-2.286 1.714-1.714 5.714 1.143 9.143 2.857 2.857 6.857 4 9.143 1.714zM201.143 748.571c2.857-2.286 2.857-6.857 0-10.857-2.286-4-6.857-5.714-9.714-3.429-2.857 1.714-2.857 6.286 0 10.286s7.429 5.714 9.714 4zM225.143 772.571c2.286-2.286 1.143-7.429-2.286-10.857-4-4-9.143-4.571-11.429-1.714-2.857 2.286-1.714 7.429 2.286 10.857 4 4 9.143 4.571 11.429 1.714zM257.714 786.857c1.143-3.429-2.286-7.429-7.429-9.143-4.571-1.143-9.714 0.571-10.857 4s2.286 7.429 7.429 8.571c4.571 1.714 9.714 0 10.857-3.429zM293.714 789.714c0-4-4.571-6.857-9.714-6.286-5.143 0-9.143 2.857-9.143 6.286 0 4 4 6.857 9.714 6.286 5.143 0 9.143-2.857 9.143-6.286zM326.857 784c-0.571-3.429-5.143-5.714-10.286-5.143-5.143 1.143-8.571 4.571-8 8.571 0.571 3.429 5.143 5.714 10.286 4.571s8.571-4.571 8-8z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/alexander.smith.391420/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link14"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon16">
+                  <path
+                    d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.instagram.com/alkasmitzer/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link15"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon18">
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="home-copyright-container">
+              <svg viewBox="0 0 1024 1024" class="home-icon20">
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path>
+              </svg>
+              <span class="home-link16 anchor">Copyright Al Smith, 2022</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-
-    <div class="container-fluid p-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Alexander D.
-            <span class="text-primary">Smith</span>
-          </h1>
-          <div class="subheading mb-5">1325 N West Street · Naperville, Illinois 60563 · (314) 255-9112 ·
-            <a href="mailto:ads10@illinois.edu">ads10@illinois.edu</a>
-          </div>
-          <p class="mb-5">MD-PhD candidate at the Carle-Illinois College of Medicine, the world's first engineering-based medical school. Entering the physician-innovator class of 2020 with goals to become involved in surgical augmentation and medical advancement.</p>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/alexander.smith.391420">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.youtube.com/channel/UC_IBamadiqcLzx4mvb5K3ZQ?view_as=subscriber">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/alexander-smith-b9b795120/">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/alexanderdsmith">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
-        <div class="my-auto">
-          <h2 class="mb-5">Research</h2>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Research Assistant</h3>
-              <div class="subheading mb-3">Johns Hopkins University</div>
-              <p>Worked with the I-STAR lab and Carnegie Center for Surgical Innovation learning, applying, and teaching the leading research in biomedical imaging and instrumentation.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2019 - May 2020</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Biomedical Engineering Intern</h3>
-              <div class="subheading mb-3">Saint Louis University</div>
-              <p>Cutting-edge innovation and research developing robotic surgery techniques through software engineering, applied physics, and a KUKA medical robot.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2015 - May 2019</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Biology Lab Software Engineer</h3>
-              <div class="subheading mb-3">Saint Louis University</div>
-              <p>Machine learning software development alongside education research with goals to provide a better learning experience for students and teachers.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2017 - August 2018</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Computer Scientist & Software Engineer</h3>
-              <div class="subheading mb-3">Saint Louis University</div>
-              <p>Involved in the reconstruction of a prior senior project relating to spectrogram analysis and student education in Spanish classes. Designed and implemented spectrogram synthesizer and a model for student - teacher interfacing & grading in a MEAN Stack application framework.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2018 - September 2018</span>
-            </div>
-          </div>
-
-          <h2 class="mb-5">Publications & Conferences</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Slide Tracking Interface, Visualization, and Analysis for Digital Histopathology</h3>
-              <div class="subheading mb-3">Alexander D. Smith, Luojie Huang, Doris Wang, Jeffrey H. Siewerdsen, Mark D. Zarella, and Alexander S. Baras</div>
-              <p>In collaboration with the departments of Biomedical Engineering and Pathology at Johns Hopkins University</p>
-              <p>Oral presentation at the Biomedical Engineering Society 52nd Annual Meeting | San Diego, CA</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Submitted May 14, 2020 (Pending Publication)</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Automated Screw Placement Using a Commercial-Robot-Based, Image-Guided
-Spine Surgery System</h3>
-              <div class="subheading mb-3">Alexander D. Smith, Jacob Chapin, Paul Birinyi, and Andrew F. Hall</div>
-              <p>In collaboration with the departments of Biomedical Engineering and Neurosurgery Saint Louis University</p>
-              <p>IEEE - Transactions on Medical Robotics and Bionics</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Submitted February 24, 2020 (Pending Publication)</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Automated Image-Guided Pedicle Screw Placement Using a Commercial Robot</h3>
-              <div class="subheading mb-3">Alexander D. Smith, Jacob Chapin, Joao P. L. Lopes, and Andrew F. Hall</div>
-              <p>Oral presentation at the Biomedical Engineering Society 50th Annual Meeting | Atlanta, GA</p>
-              <p>Poster presentation at the 10th Image Guided Therapy Workshop | Boston, MA</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 30, 2018</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Commercial Robot Based Retractor for Spine Surgery</h3>
-              <div class="subheading mb-3">Alexander D. Smith, Riley Neuville, Andrew F. Hall, and Paul Birinyi</div>
-              <p>Oral Presentation at the Biomedical Engineering Society 49th Annual Meeting | Phoenix, AZ</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 1, 2017</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="entrepreneurship">
-        <div class="myauto">
-          <h2 class="mb-5">Entrepreneurship</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">President</h3>
-              <div class="subheading mb-3">MEDLaunch</div>
-              <p>Elected President of MEDLaunch, a biomedical incubator curating teams of excellent engineers, clinicians, and businesspeople in the Saint Louis community. MEDLaunch aims for excellence in medicine through innovation and scientific advancement, followed by business foundation and growth of the Saint Louis economy.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">April 2018 - May 2019</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Director of Marketing</h3>
-              <div class="subheading mb-3">MEDLaunch</div>
-              <p>Focused on promotion of entrepreneurship and innovation in students, engineers, practitioners, businessmen, and professors in the Saint Louis Area. Improved process management, elucidated problems in management and organization while offering solutions, helped organize events, and improved website design.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2017 - April 2018</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Co-Founder & Chief Operating Officer</h3>
-              <div class="subheading mb-3">Lifaxis</div>
-              <p>Software engineer for voice recognition and dialog parsing algorithms, website design, and integration of extensive database information to improve the electronic medical record organization and usage for patients and physicians.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2018 - Present</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Co-Founder & Chief Technology Officer</h3>
-              <div class="subheading mb-3">Votular Medical</div>
-              <p>Innovating the medical field with high-end neurological monitoring, artificial intelligence, software engineering, and creation of revolutionary medical technologies.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2016 - Present</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Statistician</h3>
-              <div class="subheading mb-3">Diversified Solutions Inc.</div>
-              <p>Statistical comprehension using powerful programs including MiniTab and Microsoft Excel, data analysis, and number crunching crucial for the fast delivery of valuable consultative information for a variety of companies.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2011 - August 2015</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Packager</h3>
-              <div class="subheading mb-3">Swibco Inc.</div>
-              <p>Team leadership and rapid delivery of packaged goods to big name retailers.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2015 - August 2015</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Carle-Illinois College of Medicine</h3>
-              <div class="subheading mb-3">Doctor of Medicine</div>
-              <div class="subheading mb-3">Doctor of Philosophy</div>
-              <div>Department of Medicine</div>
-              <div>Department of Electrical Engineering</div>
-              <p>GPA: TBD</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2020 - Present</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Johns Hopkins University</h3>
-              <div class="subheading mb-3">Post Baccalaureate Student</div>
-              <p>GPA: 4.00</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2019 - May 2020</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Saint Louis University</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Biomedical Engineering and Computer Science Double Major</div>
-              <div>Pre-medical Track</div>
-              <p>GPA: 3.80</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2015 - May 2019</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Benet Academy</h3>
-              <div class="subheading mb-3">High School</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2011 - May 2015</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-apple"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-java"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-android"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-php"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-angular"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-mongodb"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-linux"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-nodejs"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-git"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-google-cloud-platform"></i>
-            </li>
-          </ul>
-
-          <div class="subheading mb-3">Experience In</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Project Development and Leadership</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-Applications and Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              KUKA Robot Programming &amp; HMI Development for Surgical Procedures</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; SCRUM Master Experience</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Full-Stack Development for MEAN and LAMP Applications</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Business Planning &amp; Public Speaking</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="accomplishments">
-        <div class="my-auto">
-          <h2 class="mb-5">Accomplishments</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Ignatian Scholarship - Saint Louis University Merit Scholarship</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Boeing BOLD Scholarship - For excellence in a dual degree</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Donald and Nora Manahan Research Fund and Scholarship - Donation for unique and interesting research plan</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Biomedical Engineering Society - Inducted Member</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Tau Beta Pi - Epsilon Chapter Elected Vice President</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              IRONMAN 70.3 Steelhead Competitor</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Chair French Horn - Saint Louis Mass Choir</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              4<sup>th</sup>
-              Place - National Elevator Pitch Competition</li>
-          </ul>
-        </div>
-      </section>
-
     </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   </body>
-
 </html>

@@ -1,0 +1,54 @@
+.education-card-card {
+  width: 25%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.education-card-image {
+  width: 200px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  margin-bottom: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.education-card-image1 {
+  width: 100px;
+  box-shadow: 0px 0px 10px 10px #ffffff;
+  object-fit: cover;
+}
+.education-card-text {
+  text-align: center;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.education-card-content-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.education-card-text1 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.education-card-text2 {
+  text-align: center;
+}
+@media(max-width: 767px) {
+  .education-card-card {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 479px) {
+  .education-card-card {
+    width: 100%;
+  }
+}

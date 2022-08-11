@@ -1,0 +1,171 @@
+.pres-card-card {
+  width: 22.5%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: center;
+  padding-top: 8px;
+  border-color: var(--dl-color-gray-black);
+  border-style: double;
+  border-width: 4px;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: column;
+  background-image: linear-gradient(315deg, rgba(0, 62, 179, 0.05) 1.00%,rgba(20, 169, 255, 0.31) 100.00%);
+}
+.pres-card-text {
+  height: auto;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: Overpass;
+  font-weight: 700;
+  line-height: 1.55;
+  padding-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.pres-card-text1 {
+  color: var(--dl-color-gray-500);
+  font-size: 8px;
+  font-style: italic;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 1;
+  text-transform: none;
+  text-decoration:   none;
+}
+.pres-card-content-container {
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pres-card-text2 {
+  color: var(--dl-color-gray-500);
+  font-size: 10px;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  letter-spacing: 1;
+  text-transform: none;
+  text-decoration: none;
+}
+.pres-card-text3 {
+  color: var(--dl-color-gray-black);
+  font-size: 12px;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1;
+  text-transform: none;
+  text-decoration: none;
+}
+.pres-card-text4 {
+  color: var(--dl-color-gray-black);
+  font-size: 12px;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1;
+  text-transform: none;
+  text-decoration: none;
+}
+.pres-card-text5 {
+  font-size: 12px;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 1;
+  text-transform: none;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .pres-card-card {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 479px) {
+  .pres-card-card {
+    width: 100%;
+  }
+}
